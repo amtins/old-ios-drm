@@ -14,12 +14,26 @@
             color: #eee;
             font-family: Courier New
         }
+        .container-element {
+            width: 100%;
+            height: 100%;
+        }
     </style>
     <link rel="stylesheet" href="letterbox.css">
 </head>
 
-<body> <video id="player" width="640" height="400" class="video-js" controls="" muted=""></video>
+<body>
+    
+<div class="container-element"></div>
     <script src="letterbox.js"></script>
+    <script>
+
+    //Player initialization
+    window.letterbox = new SRGLetterbox();
+    letterbox.initializeOnElement('container-element');
+
+    letterbox.prepareToPlayURN('urn:srf:video:c4927fcf-e1a0-0001-7edd-1ef01d441651');
+    </script>
 </body>
 
 </html>
