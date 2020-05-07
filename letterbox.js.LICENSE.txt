@@ -1,0 +1,27 @@
+/*!
+ * Programatically add the following
+ */
+
+/*!
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <feross@feross.org> <http://feross.org>
+ * @license  MIT
+ */
+
+/*! @name m3u8-parser @version 4.4.0 @license Apache-2.0 */
+
+/*! @name videojs-contrib-dash @version 2.11.0 @license Apache-2.0 */
+
+/*! @name videojs-contrib-quality-levels @version 2.0.9 @license Apache-2.0 */
+
+/*! codem-isoboxer v0.3.6 https://github.com/madebyhiro/codem-isoboxer/blob/master/LICENSE.txt */
+
+/*! http://mths.be/fromcodepoint v0.1.0 by @mathias */
+
+/**
+ * @videojs/http-streaming
+ * @version 1.10.6
+ * @copyright 2019 Brightcove, Inc
+ * @license Apache-2.0
+ */
