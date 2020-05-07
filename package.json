@@ -1,0 +1,29 @@
+{
+  "name": "old-ios-drm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "parcel index.html",
+    "release" : "parcel build index.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amtins/old-ios-drm.git"
+  },
+  "dependencies": {
+    "video.js": "^7.6.0",
+    "videojs-contrib-eme": "SRGSSR/videojs-contrib-eme#feature/fix-safari-drm"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "parcel-bundler": "^1.12.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amtins/old-ios-drm/issues"
+  },
+  "homepage": "https://github.com/amtins/old-ios-drm#readme"
+}
