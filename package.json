@@ -12,7 +12,7 @@
     "url": "git+https://github.com/amtins/old-ios-drm.git"
   },
   "dependencies": {
-    "video.js": "^7.6.0",
+    "video.js": "^7.20.3",
     "videojs-contrib-eme": "SRGSSR/videojs-contrib-eme#feature/fix-safari-drm"
   },
   "devDependencies": {
